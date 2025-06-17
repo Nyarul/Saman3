@@ -69,8 +69,6 @@ public class SummonsDAO {
             }
         } catch (SQLException e) {
             System.err.println("SQL Error fetching summons: " + e.getMessage());
-        } catch (ClassNotFoundException e) {
-            System.err.println("Database driver not found: " + e.getMessage());
         } catch (Exception e) {
             System.err.println("General error: " + e.getMessage());
         }
@@ -87,8 +85,6 @@ public class SummonsDAO {
             pstmt.executeUpdate();
         } catch (SQLException e) {
             System.err.println("SQL Error fetching summons: " + e.getMessage());
-        } catch (ClassNotFoundException e) {
-            System.err.println("Database driver not found: " + e.getMessage());
         } catch (Exception e) {
             System.err.println("General error: " + e.getMessage());
         }
