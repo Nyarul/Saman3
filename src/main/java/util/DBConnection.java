@@ -17,9 +17,6 @@ public class DBConnection {
     private static final String JDBC_PASSWORD = System.getenv("DB_PASS");
 
     public static Connection getConnection() {
-//        final String jdbcURL = "jdbc:mysql://localhost:3306/hotel_db";
-//        final String jdbcUsername = "root";
-//        final String jdbcPassword = "admin";
         Connection conn = null;
 
         try {
