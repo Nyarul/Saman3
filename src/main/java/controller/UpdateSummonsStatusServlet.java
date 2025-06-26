@@ -36,6 +36,6 @@ public class UpdateSummonsStatusServlet extends HttpServlet {
             }
         }
 
-        response.sendRedirect("/Saman1/admin/dashboard.jsp");
+        response.sendRedirect("/admin/dashboard.jsp");
     }
 }

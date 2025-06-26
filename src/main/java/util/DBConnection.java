@@ -29,3 +29,14 @@ public class DBConnection {
 
     }
 }
+
+//public class DBConnection {
+//    public static Connection getConnection() throws SQLException, ClassNotFoundException {
+//        Class.forName("com.mysql.cj.jdbc.Driver");
+//        return DriverManager.getConnection(
+//            "jdbc:mysql://localhost:3306/umt_transport_db", 
+//            "root", 
+//            "admin"
+//        );
+//    }
+//}
